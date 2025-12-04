@@ -91,3 +91,53 @@ The compiler translates intermediate code into target assembly-like code.
 ( RISC-V)
 
 Handles register allocation, jumps, labels, and sequential execution.
+
+📄 Output Files
+
+During compilation, the following files are produced:
+
+✔ final_check.gre
+
+Contains the program after final syntax and semantic verification.
+Useful for debugging and confirming that parsing succeeded.
+
+✔ symFile.sy
+
+The Symbol Table of the compiler.
+Includes:
+
+variables
+
+data types
+
+scopes
+
+memory locations
+
+constants
+
+Essential for semantic checking and debugging.
+
+✔ intFile.int
+
+The Intermediate Code file.
+Contains quads / three-address code representing the logical execution of the program.
+
+Used heavily in debugging the semantic and IR phases.
+
+✔ TelFile.asm
+
+The Final Assembly Code produced by the compiler.
+Includes:
+
+labels
+
+jumps
+
+arithmetic instructions
+
+load/store
+
+final machine-level logic
+
+This is the file you run through an assembler or a simulator.
