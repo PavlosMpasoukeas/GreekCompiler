@@ -41,7 +41,7 @@ Input–output commands
 
 Custom grammar rules following a formal BNF-like structure
 
-(Αν θέλεις, μπορώ να προσθέσω και κανονική BNF γραμματική!)
+
 
 🛠 Compiler Structure
 
