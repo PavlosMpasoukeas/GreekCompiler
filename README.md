@@ -44,6 +44,8 @@ Custom grammar rules following a formal BNF-like structure
 (Αν θέλεις, μπορώ να προσθέσω και κανονική BNF γραμματική!)
 
 🛠 Compiler Structure
+
+
 ✔ 1. Lexical Analyzer (Lexer)
 
 Responsible for scanning the input program and splitting it into tokens:
