@@ -1,0 +1,11 @@
+------------------------------------
+SCOPE: name:fibonacci nestingLevel:1
+	ENTITIES:
+	ENTITY:  name:x	 type:PARAM	 mode:CV	 offset:12
+	ENTITY:  name:T@1	 type:TEMP	 temp-type:int	 offset:16
+	ENTITY:  name:T@2	 type:TEMP	 temp-type:int	 offset:20
+	ENTITY:  name:T@3	 type:TEMP	 temp-type:int	 offset:24
+	ENTITY:  name:T@4	 type:TEMP	 temp-type:int	 offset:28
+	ENTITY:  name:T@5	 type:TEMP	 temp-type:int	 offset:32
+
+
